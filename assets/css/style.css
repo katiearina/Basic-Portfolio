@@ -14,35 +14,37 @@ body {
 }
 
 header {
-	float: left;
-	width: 960px;
+	float: clear;
+	height: 100px;
 	position: fixed;
 	top: 0px;
 	background-color: #ffffff;
 	width: 100%;
 	border-color: #cccccc;
+	margin-bottom: 20px;
 	border-bottom-style: solid;
 }
 
 #logo {
 	float: left;
-	width: 610px;
+	height: 60px;
 	padding: 20px;
-	background-color: white;
-	font-family: "Georgia", Times, "Times New Roman", serif;
-	font-size: 16px;
-	margin-bottom: 20px;
+	width: 230px;
+	background-color: yellow;
+	text-align: center;
+	font-family: "Georgia", "Times", "Times New Roman", serif;
 }
 
 #menu {
 	float: right;
-	width: 230px;
-	background-color: red;
-	text-align: center;
+	height: 60px;
+	line-height: 60px;
 	padding: 20px;
+	width: 230px;
+	background-color: yellow;
+	text-align: center;
 	font-family: "Arial", "Helvetica Neue", Helvetica, sans-serif;
 	font-size: 14px;
-
 }
 
 #profile-pic {
@@ -51,16 +53,22 @@ header {
 }
 
 #about-me {
+	position: relative;
 	float: left;
 	width: 610px;
+	margin-top: 40px;
 	padding: 20px;
 	background-color: white;
+	z-index: -1;
 }
 
 #connect {
+	position: relative;
 	float: right;
 	width: 230px;
+	margin-top: 40px;
 	background-color: white;
 	text-align: center;
 	padding: 20px;
+	z-index: -1;
 }
