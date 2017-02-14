@@ -5,37 +5,6 @@
 	position: relative;
 }
 
-html {
-	position: relative;
-	margin: 0px;
-}
-
-.push {
-	position: relative;
-	bottom: 0px;
-	height: 0px;
-	width: 100%;
-	clear: both;
-}
-
-.content {
-	min-height: 100%;
-	padding-bottom: 50px;
-}
-
-.footer {
-	clear: both;
-	position: absolute;
-	height: 20px;
-	width: 100%;
-	margin-top: 50px;
-	clear: both;
-	background: #777777;
-	color: white;
-	text-align: center;
-	font-size: 10px;
-}
-
 body {
 	margin: 0%;
 	position: relative;
