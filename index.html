@@ -1,4 +1,5 @@
-<!-- Week 1 Assignment - My Portfolio! -->
+<!-- Week 1 Assignment - My Portfolio! 
+HTML Successfully Validated!!! -->
 
 <!DOCTYPE html>
 <html lang="en-us">
@@ -14,22 +15,24 @@
 <body>
 
 	<header>
-
 		<!-- Name Header Goes Here! -->
 		<section id="logo">
 			<h1>Katie Geckle</h1>
 		</section>
+		
+		<!-- Page Navigation Links Go Here -->
+		<nav id="menu">
+			<ul>
+				<li><a class="menu-link" href="index.html">About</a></li>
+				<li><a class="menu-link" href="portfolio.html">Portfolio</a></li>
+				<li><a class="menu-link" href="contact.html">Contact</a></li>
+			</ul>
+		</nav>
 
-		<section id="menu">
-			<a class="menu-link" href="index.html">About</a>
-			<a class="menu-link" href="portfolio.html">Portfolio</a>
-			<a class="menu-link" href="contact.html">Contact</a>
-		</section>
-	
 	</header>
 
 <!-- Padding around sides of content -->
-<section id="wrapper">
+<div id="wrapper">
 	
 	<section id="about-me">
 
@@ -38,7 +41,7 @@
 		<!-- Bio Image Goes Here! -->
 		<img id="profile-pic" src="./assets/images/KG-Profile.jpg" alt="Katie Geckle">
 
-		<!-- Bio Paragraph -->
+		<!-- Bio Paragraph Goes Here! -->
 		<p id="profile-text-top">Hello! My name is Katie (well, technically it's Katarina) and I live in Durham, North Carolina. I grew up on a farm in northern Maryland (only a half-mile from Pennsylvania!), spent nine years living in Portland, Oregon, and returned to the east coast in early 2014 to see what the South had to offer.</p>
 		<p>I have driven across the country five times, have two Oregon-born cats, and like to spend my free time eating spicy foods and fixing up my house (some photos can be found under the <a href="https://www.instagram.com/explore/tags/cutehouseiscute/" target="_blank">#cutehouseiscute</a> tag on Instagram). Some of my favorite things to do in Durham are to go hiking on the Eno and explore new breweries.</p>
 		<p>I am a firm believer that sunshine can pretty much always cure what ails me, love to talk DIY and hot sauce preferences, and am interested in learning how to brew kombucha.</p>
@@ -46,8 +49,8 @@
 
 	</section>
 
-	<section id="connect">
-		<!-- Social Links go here! -->
+	<aside id="connect">
+		<!-- Sidebar with Social Links goes here! All links open in a new tab-->
 		<h3>Connect with Me</h3>
 		
 		<a href="https://github.com/katiearina/" target="_blank">
@@ -62,11 +65,14 @@
 			<img alt="StackOverflow" src="./assets/images/stackoverflow-64.png">
 		</a>
 
-	</section>
+	</aside>
 
-</section>
+</div>
 
-<footer>&copy; 2017 Katie Geckle</footer>
+	<!-- Footer! Make sure to update the date as necessary. -->
+	<footer>
+		&copy; 2017 Katie Geckle
+	</footer>
 
 </body>
 
